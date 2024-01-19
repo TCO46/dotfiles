@@ -1,0 +1,13 @@
+require('plugins')
+require('keybindings')
+require('treesitter-config')
+require('lualine-config')
+require('options')
+require('bufferline-config')
+require('nvimtree-config')
+require('autopairs-config')
+require('whichkey-config')
+require('telescope-config')
+require('dashboard-config')
+vim.cmd('colorscheme kanagawa')
+
